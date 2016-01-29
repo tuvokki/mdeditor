@@ -1,0 +1,12 @@
+{
+  "name": "markdown_editor",
+  "main": "./html/index.html",
+  "window": {
+    "toolbar": false,
+    "show": true,
+    "icon": "./img/markdown.png"
+  },
+  "dependencies": {
+    "marked": "^0.3.3"
+  }
+}

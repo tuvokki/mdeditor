@@ -1,0 +1,8 @@
+bower_components
+node_modules
+locales
+*.dll
+icudtl.dat
+nw.exe
+nw.pak
+nwjc.exe
