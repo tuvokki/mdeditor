@@ -6,3 +6,5 @@ icudtl.dat
 nw.exe
 nw.pak
 nwjc.exe
+.vscode
+.vscode/tasks.json
