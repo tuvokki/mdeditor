@@ -1,22 +1,12 @@
-var Hello = React.createClass({
-  displayName: 'Hello',
-  render: function() {
-    return React.createElement("div", null, "Call ", this.props.name);
-  }
-});
-
 function init() {
   console.log("init");
   global.$(global.window.document).ready(function(){
+    
       var editor = require("./../js/editor.js");
       var textEditor = global.$('#editor');
       textEditor.bind('input propertychange', function() {
           editor.reload();
       });
-    ReactDOM.render(
-      React.createElement(Hello, {name: "Actions"}),
-      document.getElementById('example')
-    );
   });
   
   var menu = require("./../js/menu.js");

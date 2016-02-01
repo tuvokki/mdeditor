@@ -1,6 +1,7 @@
 {
   "name": "mdeditor",
   "version": "0.0.0",
+  "homepage": "https://github.com/tuvokki/mdeditor",
   "authors": [
     "Wouter Roosendaal <Wouter.Roosendaal@planonsoftware.com>"
   ],
@@ -13,7 +14,8 @@
     "tests"
   ],
   "dependencies": {
+    "angular-ui-router": "~0.2.17",
     "jquery": "~2.2.0",
-    "react": "~0.14.7"
+    "bootstrap": "~3.3.6"
   }
 }

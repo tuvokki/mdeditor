@@ -1,27 +1,21 @@
-html, body{
-    height:98%;
-}
-body{
-    font-family:Arial;
-}
-a{
-    text-decoration:none !important;
-}
-
-.md_editor{
-    float:left;
-    width:50%;
-    height:100%;
-    resize:none;
-    padding:0;
+body, html, .container-fluid, .sidebar, .body {
+    height: 98%;
+    min-height: 98%;
     margin:0;
 }
-.md_result{
-    float:left;
-    width:49%;
-    box-sizing:border-box;
-    padding:10px 10px 13px 10px;
-    margin:0;
-    height:100%;
-    overflow-y:scroll;
+.body {
+    box-sizing: border-box;
+    padding-top:65px;
+    z-index:1;
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    z-index:2;
+}
+.done-true {
+  text-decoration: line-through;
+  color: grey;
 }
