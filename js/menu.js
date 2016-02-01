@@ -10,6 +10,7 @@ exports.initMenu = function(){
           editor.loadText("");
         }
     }));
+    
     fileMenu.append(new global.gui.MenuItem({
         label: 'Open',
         click: function() {
@@ -18,6 +19,7 @@ exports.initMenu = function(){
           });
         }
     }));
+    
     fileMenu.append(new global.gui.MenuItem({
         label: 'Save',
         click: function() {
@@ -34,6 +36,7 @@ exports.initMenu = function(){
           });
         }
     }));
+    
     fileMenu.append(new global.gui.MenuItem({
         label: 'Exit',
         click: function() {

@@ -2,7 +2,7 @@
   "name": "markdown_editor",
   "main": "./html/index.html",
   "window": {
-    "toolbar": false,
+    "toolbar": true,
     "show": true,
     "icon": "./img/markdown.png"
   },
